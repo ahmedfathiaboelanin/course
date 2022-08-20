@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 110);
+    height: 100vh;
+    color: white;
+}
+.home{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    background-color: aliceblue;
+}
+.help{
+    width: 250px;
+}
+.help li{
+    font-size: 20px;
+    width: 100%;
+}
+.support{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    margin-top: 30px;
+}

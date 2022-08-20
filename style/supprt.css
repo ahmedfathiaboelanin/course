@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+form{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 100px;
+    text-align: center;
+}
+input,
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+input{
+    text-align: center;
+    height: 30px;
+    width: 250px;
+}
+button{
+    width: 50px;
+    font-size: medium;
+}
